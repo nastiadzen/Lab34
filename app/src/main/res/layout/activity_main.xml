@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/textName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/textName"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginTop="16dp"
+        tools:ignore="MissingConstraints,VisualLintOverlap" />
+
+    <TextView
+        android:id="@+id/textGroup"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/textGroup"
+        app:layout_constraintTop_toBottomOf="@+id/textName"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginTop="16dp"
+        tools:ignore="MissingConstraints,VisualLintOverlap" />
+
+    <TextView
+        android:id="@+id/textCity"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/textCity"
+        app:layout_constraintTop_toBottomOf="@+id/textGroup"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginTop="16dp"
+        tools:ignore="MissingConstraints,VisualLintOverlap" />
+
+    <Button
+        android:id="@+id/buttonHide"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/buttonHide"
+        app:layout_constraintTop_toBottomOf="@+id/textCity"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginTop="16dp"
+        tools:ignore="MissingConstraints,VisualLintOverlap" />
+
+    <Button
+        android:id="@+id/buttonShow"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/buttonShow"
+        app:layout_constraintTop_toBottomOf="@+id/buttonHide"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginTop="16dp"
+        tools:ignore="MissingConstraints" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

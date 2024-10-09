@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Lab34</string>
+    <string name="buttonHide">Сховати текст</string>
+    <string name="buttonShow">Показати текст</string>
+    <string name="textCity">Я проживаю в місті Овруч.</string>
+    <string name="textGroup">Я навчаюсь в групі 4_7.</string>
+    <string name="textName">Дзендзелівська Анастасія Михайлівна</string>
+</resources>
